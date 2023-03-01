@@ -1,0 +1,159 @@
+/* Common styles */
+
+.pricing {
+	
+	display: flex;
+
+	-webkit-justify-content: center;
+	justify-content: center;
+	margin:0 auto 2em ;
+
+}
+
+pricing__item:hover {
+	position: relative;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-flex-direction: column;
+	flex-direction: column;
+	-webkit-align-items: stretch;
+	align-items: stretch;
+	text-align: center;
+	-webkit-flex: 0 1 330px;
+	flex: 0 10px 100px;
+  
+}
+
+.pricing__item:hover{
+vertical-align: middle;
+border-style: none;
+width: 100%;
+height: auto;
+-moz-transition: all 0.s;
+-webkit-transition: all 0.2s;
+transition: all 0.2s;
+} 
+
+.pricing__feature-list {
+	text-align: left;
+}
+
+.pricing__action {
+	color: inherit;
+	border: none;
+	background: none;
+}
+
+.pricing__action.pricing__action:hover {
+	color: #ffffff;
+	border: none;
+	background: none;
+}
+
+
+.pricing__action:focus {
+	outline: none;
+  color: #ffffff;
+}
+
+
+
+/* Individual styles */
+
+
+/* Tenzin */
+.pricing--tenzin .pricing__item {
+	margin: 1em;
+	padding: 2em 2.5em;
+	
+	color: #0f0f10;
+	background: white;
+	border-top: 10px solid #EEF0F3;
+	-webkit-transition: border-color 0.3s;
+	transition: border-color 0.3s;
+  border-radius: 10px;
+  
+}
+
+
+.pricing--tenzin .pricing__item:hover {
+	border-color:  #FFCC29;
+  border-width: 50px;
+  
+}
+
+.pricing--tenzin .pricing__title {
+	font-size: 1em;
+	margin: 0 0 1em;
+}
+
+.pricing--tenzin .pricing__price {
+	font-size: 2em;
+	font-weight: bold;
+	padding: 0.5em 0 0.75em;
+	border-top: 3px solid rgba(139, 144, 157, 0.18);
+}
+
+.pricing--tenzin .pricing__currency {
+	font-size: 0.5em;
+	vertical-align: super;
+}
+
+.pricing--tenzin .pricing__sentence {
+	font-weight: bold;
+	padding: 0 0 0.5em;
+	color: #9CA0A9;
+	border-bottom: 3px solid rgba(139, 144, 157, 0.18);
+}
+
+.pricing--tenzin .pricing__feature-list {
+	font-size: 0.95em;
+	font-style: italic;
+	margin: 0;
+	padding: 0.25em 0 2.5em;
+	list-style: none;
+	text-align: center;
+	color: #8b909d;
+}
+
+.pricing--tenzin .pricing__action {
+	font-weight: bold;
+	margin-top: auto;
+	padding: 1em 2em;
+	color: #1D539E;
+	border-radius: 40px;
+	background: #ffffff;
+	-webkit-transition: background-color 0.3s;
+	transition: background-color 0.3s;
+  width: 100%;
+  position: relative;
+  margin: auto;
+  border-style: solid;
+}
+
+.pricing--tenzin .pricing__action:hover,
+.pricing--tenzin .pricing__action:focus {
+	background-color: #1D539E;
+}
+.mes{
+  color: #828799;
+  font-size: 17px;
+}
+.virgula{
+  font-size: 0.5em;
+  color: black;
+}
+.popular{
+  padding: 5px;
+  color: #ffffff;
+  border-radius: 25px;
+  background: #1D539E;
+  text-align: center;
+  font-size: 15px;
+     
+}
+
+
+
+
+

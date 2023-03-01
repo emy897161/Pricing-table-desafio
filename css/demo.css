@@ -1,0 +1,142 @@
+
+/* Contente */
+
+
+.codrops-header,
+.pricing-section {
+	min-height: 100vh;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-flex-direction: column;
+	flex-direction: column;
+	-webkit-justify-content: center;
+	justify-content: center;
+	-webkit-align-items: center;
+	align-items: center;
+}
+
+
+
+.pricing-section__title {
+	font-size: 3em;
+	font-weight: 700;
+	margin: 2em 0 1em;
+	flex: none;
+  color: white;  
+  
+}
+
+
+
+/* Estilo de navegação superior */
+.codrops-links {
+	position: relative;
+	display: inline-block;
+	text-align: center;
+	white-space: nowrap;
+}
+
+.codrops-links::after {
+	position: absolute;
+	top: 0;
+	left: 50%;
+	width: 1px;
+	height: 100%;
+	background: rgba(255,255,255,0.2);
+	content: '';
+	-webkit-transform: rotate3d(0,0,1,22.5deg);
+	transform: rotate3d(0,0,1,22.5deg);
+}
+
+
+
+.codrops-icon span {
+	display: none;
+}
+
+.codrops-icon:before {
+	margin: 0 5px;
+	text-transform: none;
+	font-weight: normal;
+	font-style: normal;
+	font-variant: normal;
+	font-family: 'codropsicons';
+	line-height: 1;
+	speak: none;
+	-webkit-font-smoothing: antialiased;
+}
+
+.codrops-icon--drop:before {
+	content: "\e001";
+}
+
+.codrops-icon--prev:before {
+	content: "\e004";
+}
+
+/*cor de fundo*/
+
+.bg-10 {
+	color: #eaebed;
+}
+
+.bg-11 {	
+background-image: linear-gradient(to bottom,  #1d539e, #1d539e 50%, #f7f7f7 50%);
+font-family: sans-serif;
+  
+}
+
+
+/*Demonstrações relacionadas */
+.content--related {
+	text-align: center;
+	font-weight: bold;
+	padding: 10em 1em;
+	background: #2C292F;
+}
+
+.media-item {
+	display: inline-block;
+	padding: 1em;
+	vertical-align: top;
+	-webkit-transition: color 0.3s;
+	transition: color 0.3s;
+}
+
+.media-item__img {
+	max-width: 100%;
+	opacity: 0.6;
+	-webkit-transition: opacity 0.3s;
+	transition: opacity 0.3s;
+}
+
+.media-item:hover .media-item__img,
+.media-item:focus .media-item__img {
+	opacity: 1;
+}
+
+.media-item__title {
+	margin: 0;
+	padding: 0.5em;
+	font-size: 1em;
+}
+
+@media screen and (max-width: 50em) {
+	.codrops-header {
+		padding: 3em 10% 4em;
+	}
+}
+
+@media screen and (max-width: 40em) {
+	.codrops-header h1 {
+		font-size: 2.8em;
+	}
+}
+
+text{
+  font-size: 20px;
+  color: #dedede;
+  margin: 1em 0 3em;
+  text-align: center;
+
+}
